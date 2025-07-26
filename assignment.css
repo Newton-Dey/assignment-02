@@ -1,0 +1,33 @@
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-option{
+    display: flex;
+   
+}
+
+.nav-option li{
+    list-style: none;
+    padding: 10px;
+}
+.nav-option li a{
+    text-decoration: none;
+    
+}
+/* Banner Section*/
+.banner{
+    display: flex;
+}
+/* Flowers Card Section*/
+
+.flower-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+}
+/* Flowers and Plants Lover Section*/
+
+.flower-plants-lover{
+    display: flex;
+}
